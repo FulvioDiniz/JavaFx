@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="86.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poov.programa05javafx.controller.Tela1Controller">
+   <children>
+      <Button fx:id="loginButton" layoutX="50.0" layoutY="47.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Label layoutX="15.0" layoutY="14.0" text="Username:" />
+      <TextField fx:id="usernameTextField" layoutX="85.0" layoutY="10.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poov.programa11javafx.controller.TelaPrincipalController">
+   <children>
+      <Slider fx:id="temperaturaSlider" layoutX="185.0" layoutY="15.0" majorTickUnit="10.0" minorTickCount="10" orientation="VERTICAL" prefHeight="438.0" prefWidth="28.0" showTickLabels="true" showTickMarks="true" value="25.0" />
+      <Label fx:id="temperaturaLabel" layoutX="279.0" layoutY="342.0" text="25o C" />
+   </children>
+</AnchorPane>
